@@ -58,6 +58,17 @@ h1 {
   justify-content: space-around;
 }
 
+footer {
+  background-color: rgba(209, 255, 2, 0.884);
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+}
+
 @media (min-width: 1024px) {
   .container {
     width: 100%;
@@ -120,6 +131,11 @@ h1 {
 
   .lubang.muncul .tikus {
     top: 0px;
+  }
+
+  footer {
+    background-color: rgba(209, 255, 2, 0.884);
+    margin-top: 381px;
   }
 }
 
