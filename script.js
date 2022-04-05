@@ -1,6 +1,7 @@
 const lubang = document.querySelectorAll(".lubang");
 const tikus = document.querySelectorAll(".tikus");
 const skor = document.querySelector(".skor");
+const done = document.querySelector(".done");
 
 let tanahKosong;
 let selesai;
@@ -41,6 +42,7 @@ function mulai() {
 
   setTimeout(() => {
     selesai = true;
+    alert("Permainan telah selesai. \n Skor anda adalah : " + jmlSkor);
   }, 10000);
 }
 
